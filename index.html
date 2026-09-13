@@ -5,7 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>เว็บไซต์ของฉัน</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
-
 <!-- ==========================================================================
      แก้เฉพาะในกล่องนี้ก็พอ ส่วนอื่นของไฟล์ไม่ต้องแตะก็ได้
      ทุกช่องมีคำอธิบายกำกับว่าใส่อะไร
@@ -20,20 +19,20 @@ const ME = {
   name: "4isranuwut",
 
   // บอกว่าคุณคือใคร สั้น ๆ
-  role: "นายอิศรานุวฒน์ ดอนพระหม นักศึกษาวิศวกรรมคอมพิวเตอร์ ปี 1 · มทร.อีสาน ชื่อเล่น โฟร์ อายุ 18 ปี",
+  role: "Aisaranuwut Donprahom, a first-year Computer Engineering student at Rajamangala University of Technology Isan. My nickname is Four, and I am 18 years old.",
 
   // หนึ่งประโยคว่าคุณสนใจสร้างอะไร เขียนให้เจาะจง อย่าเขียนกว้าง ๆ
   // ไม่ดี: "รักการเขียนโปรแกรม"   ดี: "อยากทำระบบรดน้ำต้นไม้ที่ดูพยากรณ์อากาศก่อนรดน้ำ"
-  tagline: "ทำเว็บไซต์โปรแกรมออกกำลังกาย",
+  tagline: "Developing a Website or Application for Exercise",
 
   // แนะนำตัว 2-3 บรรทัด ว่ามาจากไหน สนใจอะไร กำลังจะไปทางไหน
-  about: "เขียนแนะนำตัวสัก 2-3 บรรทัด ว่าคุณมาจากไหน สนใจอะไรเป็นพิเศษ และอยากพัฒนาตัวเองไปทางไหน ไม่ต้องยาว ขอให้เป็นตัวคุณจริง ๆ",
+  about: "Hi!, my name is Four. I am studying Computer Engineering, and I would like to work as a front-end developer. I also want to keep improving my skills in this field and continue developing myself.",
 
   // กำลังเรียนรู้อะไรอยู่ตอนนี้ ใส่ได้ 2-5 รายการ
   learning: [
-    "พื้นฐานอินเทอร์เน็ตและบริการออนไลน์",
-    "HTML และ CSS",
-    "การใช้ Git และ GitHub",
+    "HTML,CSS,JAVASCRIPT",
+    "The functions of different HTML tags",
+    "The Positive and Negative Effects of Different Nutrients on the Body"
   ],
 
   // ผลงาน ปี 1 เทอมแรกยังไม่มีก็ไม่เป็นไร ปล่อยว่างไว้ได้ หน้าเว็บจะขึ้นข้อความให้เอง
@@ -55,7 +54,7 @@ const ME = {
 <style>
 /* ---------- สีพื้นฐาน ทุกธีมใช้ร่วมกัน ---------- */
 :root {
-  --bg:#0b1020; --line:#24304f; --text:#e8edf7; --muted:#93a1c0;
+  --bg:#000000; --line:#24304f; --text:#fbfbfb; --muted:#ffffff;
   --surface:rgba(255,255,255,.05);      /* พื้นของการ์ดผลงานและแผงข้อมูล */
   --mono: ui-monospace,"SF Mono",Menlo,Consolas,monospace;
 }
@@ -64,7 +63,7 @@ const ME = {
    ห้าธีมแรกเปลี่ยนแค่สีเน้นกับแสงพื้นหลัง พื้นหลังยังเข้มเหมือนกันหมด
    จึงไม่มีทางเลือกจนอ่านไม่ออก                                          */
 :root,
-[data-theme="ocean"]  { --accent:#38bdf8; --accent-soft:#0ea5e9; --glow1:#1d2a52; --glow2:#10305c; }
+[data-theme="ocean"]  { --accent:#f8384d; --accent-soft:#0ea5e9; --glow1:#9b1717; --glow2:#9b1717; }
 [data-theme="sunset"] { --accent:#fb923c; --accent-soft:#f97316; --glow1:#4a2418; --glow2:#5c2b10; }
 [data-theme="forest"] { --accent:#34d399; --accent-soft:#10b981; --glow1:#14342a; --glow2:#0f3d2e; }
 [data-theme="grape"]  { --accent:#c084fc; --accent-soft:#a855f7; --glow1:#2e1d52; --glow2:#3d1a5c; }
